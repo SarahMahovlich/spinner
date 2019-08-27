@@ -27,6 +27,10 @@ setTimeout(() => {
 }, 1100);
 
 setTimeout(() => {
+  process.stdout.write('\r\\  ');
+}, 700);
+
+setTimeout(() => {
   process.stdout.write('\r|  ');
   console.log("");
 }, 1300);
